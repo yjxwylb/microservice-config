@@ -23,5 +23,5 @@ server:
         name: microservice-config-client
 eureka:
   client: 
-    serviceUrl:
+    service-url:
       defaultZone: http://eureka-test.com:7001/eureka/
