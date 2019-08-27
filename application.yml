@@ -11,5 +11,5 @@ spring:
 spring: 
     profiles: test
     application:
-        name: microservicecloud-config-xyj-dev
+        name: microservicecloud-config-xyj-test
 #务必保存为UTF-8格式
