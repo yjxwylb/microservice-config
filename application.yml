@@ -1,0 +1,15 @@
+spring: 
+    profiles: 
+      active:
+      - dev
+---
+spring: 
+    profiles: dev
+    application:
+        name: microservicecloud-config-xyj-dev
+---
+spring: 
+    profiles: test
+    application:
+        name: microservicecloud-config-xyj-dev
+#务必保存为UTF-8格式
